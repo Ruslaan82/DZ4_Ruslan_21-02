@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #EFEFEF;
+}
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1138px;
+    height: 192px;
+    background: #FFFFFF;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    width: 209px;
+    height: 80px;
+}
+.title {
+    width: 113px;
+    height: 80px;
+}
+.title h2 {
+    margin-bottom: 8px;
+}
+.title a {
+    color: #086CF9;
+    text-decoration: none;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 595px;
+    height: 433px;
+    background: url("../images/image_4.png");
+    margin: 40px auto;
+}
